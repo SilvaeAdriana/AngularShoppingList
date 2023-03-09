@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 <app-header (featureSelected)="onNavigate($event)"></app-header>
 <div class="container">
   <div class="row">
@@ -6,6 +7,14 @@
       <app-recipes *ngIf="loadedFeature === 'recipe' "></app-recipes>
       <app-shopping-list  *ngIf="loadedFeature !== 'recipe' "></app-shopping-list>
       <!--implementando a navegação-->
+=======
+<app-header></app-header>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <app-recipes></app-recipes>
+      <app-shopping-list></app-shopping-list>
+>>>>>>> 505218f7604641aeb5119a3069aac33689d9c5a6
     </div>
   </div>
 </div>

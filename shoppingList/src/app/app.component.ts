@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shoppingList';
+<<<<<<< HEAD
   loadedFeature = 'recipe';//vai pro html desse componente via ngIf
 
 
@@ -15,4 +16,6 @@ export class AppComponent {
     this.loadedFeature = feature;
 
   }
+=======
+>>>>>>> 505218f7604641aeb5119a3069aac33689d9c5a6
 }
